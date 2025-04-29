@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --dark-color: #10454F;
+    --medium-dark-color: #506266;
+    --medium-color: #818274;
+    --light-color: #A3AB78;
+    --contrast-color: #BDE038;
+}
+
 /* reset */
 * {
     margin: 0;
@@ -5,7 +15,7 @@
     box-sizing: border-box;
 }
 
+/* general */
 body {
-    background-color: black;
     font-family: "Roboto", sans-serif;
 }
