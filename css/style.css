@@ -19,3 +19,45 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+.container-flex {
+    display: flex;
+    border: 1px solid rgb(0, 255, 51);
+    background-color: var(--dark-color);
+    margin: 30px auto;
+    width: 80%;
+    height: 500px;
+}
+
+.box {
+    width: calc(100% / 3);
+}
+
+.bg-medium {
+    background-color: var(--medium-color);
+}
+
+.bg-light {
+    background-color: var(--light-color);
+}
+
+.bg-contrast {
+    background-color: var(--contrast-color);
+}
+
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
